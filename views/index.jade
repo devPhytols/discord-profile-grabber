@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+  .container
+    .logo-block
+      h2= title
+      p Conectar-se com as pessoas é mais fácil!
+    .input-group
+      input(type="text" id="user_id" class="form-control input-lg" placeholder="Seu ID do Discord" name="url")
+      .input-group-btn
+      <button type="submit" id="create_button" class="btn btn-primary btn-lg">Criar Banner</button>
+      br
+    .well.well_help
+      h4 Como encontrar meu ID?
+        ol
+          br
+          li Junte-se ao nosso servidor <a target="_blank" href="#">Clicando Aqui</a> (Certifique-se de estar online)
+          li Nosso bot fornecerá seu ID de usuário.</a>
+          li Preencha seu ID de usuário acima e clique em Criar Banner.
+        b.sfinal Certifique-se de permanecer em meu servidor, isso nos ajuda muito!
+            br
+        i.final* Os Perfis são atualizados em <b>tempo real</b>!
